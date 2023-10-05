@@ -21,4 +21,4 @@ jobs:
         giphy-api-key: ${{ secrets.GIPHY_API_KEY }}
 
     - name: Log Comment URL
-      runs: echo "URL - ${{ steps.giphy.outputs.pr-comment-url }}"
+      run: echo "URL - ${{ steps.giphy.outputs.pr-comment-url }}"
